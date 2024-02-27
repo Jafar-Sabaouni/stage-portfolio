@@ -1,8 +1,9 @@
-# dag1
+# dag 1  26/2/2024
 
 ### Leerdoelen Werkplekleren
 
 - Bespreken van leerdoelen met stagebegeleider.
+- Bespreking over het gebruik van de agile methodiek Scrum.
 
 ### Stage Project
 
@@ -11,6 +12,13 @@ Bespreking van het Huidige Project en Bestaande Elementenbekeeken
 ### Ontmoeting met Begeleider van ap
 
 Bijeenkomst met begeleider van de AP Hogeschool.
+
+### overleg gehad met mentor over wat mijn taken en doelen zijn
+- Markdown leren voor documentatie etc.
+- Figma voor mockups en wireframes.
+- vercel voor deployment.
+- vite voor een lokale ontwikkelingsserver.
+- Prettier - Code formatter om het aantal conflicten tijdens het mergen te verminderen.
 
 ### Werkomgeving Organiseren
 
