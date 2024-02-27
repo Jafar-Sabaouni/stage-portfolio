@@ -6,23 +6,25 @@
 
 ### Stage Project
 
-- Uitleg over het huidige project en bestaande elementen.
+Bespreking van het Huidige Project en Bestaande Elementenbekeeken
 
-### Ontmoeting met Begeleider
+### Ontmoeting met Begeleider van ap
 
-- Bijeenkomst met begeleider van de AP Hogeschool.
+Bijeenkomst met begeleider van de AP Hogeschool.
 
 ### Werkomgeving Organiseren
 
-- Organiseren van werkomgeving (GitHub, e-mail, .env, etc.).
+Organiseren van werkomgeving (GitHub, e-mail, .env, etc.).
 
 ### Eerste Taak: Maak kolommen gelijke breedte
 
-- kolommen van de .
+- Breete van de kolommen aangepast op de dashboard voor het ANTISTATIC project(stage project) .
 - Eerste pull request gemaakt naar de repository.
 
 ### Nieuwe feat toevoegen voor Styling Probleem
 
-- Toevoegen van een nieuwe feat voor styling probleem waarbij de tekst buiten het parent element valt.
+Toevoegen van een nieuwe feat voor styling probleem waarbij de tekst buiten het parent element valt.
 
 ![Alt Text](../assets/Schermafbeelding%202024-02-26%20192914.png)
+
+## first day finished successfully 👍
