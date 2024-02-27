@@ -1,30 +1,35 @@
 # dag 2 27/2/2024
 
-### Leerdoelen Werkplekleren
 
-- Bespreken van leerdoelen met stagebegeleider.
+### breainstormen 
 
-### Stage Project
+- Hbrainstormen over een oplossing voor een van de klantproblemen met invoer voor succesvolle of mislukte prints. Ze willen in staat zijn om meerdere succesvolle prints tegelijkertijd in te voeren.
+- Figma leren om een mockup te maken voor de klant.
+- Een mockup gemaakt voor de klant met figma.
 
-Bespreking van het Huidige Project en Bestaande Elementenbekeeken
+- old design
+![Alt Text](../assets/Schermafbeelding%202024-02-27%20115355.png)
 
-### Ontmoeting met Begeleider van ap
+- new design with changed input for failed and succeeded prints
 
-Bijeenkomst met begeleider van de AP Hogeschool.
+![Alt Text](../assets/Schermafbeelding%202024-02-27%20120604.png)
 
-### Werkomgeving Organiseren
+### feat 404 pagina gemaakt voor het project
 
-Organiseren van werkomgeving (GitHub, e-mail, .env, etc.).
+Een eenvoudige 404-pagina gemaakt met een graidient background en een link naar home page.
 
-### Eerste Taak: Maak kolommen gelijke breedte
+![Alt Text](../assets/Schermafbeelding%202024-02-27%20102912.png)
 
-- Breete van de kolommen aangepast op de dashboard voor het ANTISTATIC project(stage project) .
-- Eerste pull request gemaakt naar de repository.
 
-### Nieuwe feat toevoegen voor Styling Probleem
+### feat de induvidueele kolommen scrollable maken 
 
-Toevoegen van een nieuwe feat voor styling probleem waarbij de tekst buiten het parent element valt.
+Hier liep ik een beetje vast omdat ik de structuur van de elementen niet goed begreep. Uiteindelijk heb ik het voor elkaar gekregen met hulp van mijn mentor.
 
-![Alt Text](../assets/Schermafbeelding%202024-02-26%20192914.png)
 
-## first day finished successfully 👍
+### feat Better fallback screen when authentication is expired
+
+Voor het geval van verlopen authenticatie heb ik een nieuwe pagina gemaakt. Deze pagina toont een fout op het scherm op basis van de fout die in JSON-formaat is vermeld. Daarnaast bevat het een link naar de inlogpagina en een korte uitleg.
+
+
+
+## second day finished successfully 👑
