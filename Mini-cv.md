@@ -4,7 +4,7 @@
 - Email: Jafarsabaouni1@outlook.com
 - School Email: jafar.sabaouni@student.ap.be
 - Phone: +32487545241
-- Address: Terlindenhofstraat 170, Merksem 2170
+- Address: Antwerpen
 - Linkedin: https://www.linkedin.com/in/jafar-sabaouni-5b1514226/
   
 
