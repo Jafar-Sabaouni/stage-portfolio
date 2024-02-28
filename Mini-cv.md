@@ -13,15 +13,6 @@
 - Frans (basis)
 - Arabisch (basis)
 
-## VAARDIGHEDEN
-- Communicatief
-- Leidinggevend
-- Sociaal, leergierig
-- Flexibel
-- Excel
-- Power Point
-- Microsoft Word
-
 ## OVER MIJ
 Ik ben een programmeur die van jongs af aan een sterke interesse heeft gehad in programmeren. Mijn passie voor coderen is ontstaan in begin en heeft alleen maar gegroeid! Mijn focus ligt voornamelijk op front-end en full-stack ontwikkeling, waar ik me sterk tot aangetrokken voel.
 
