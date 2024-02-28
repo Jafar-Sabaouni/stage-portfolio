@@ -1,4 +1,4 @@
-# dag 1  26/2/2024
+# dag 1 26/2/2024
 
 ### Leerdoelen Werkplekleren
 
@@ -14,6 +14,7 @@ Bespreking van het Huidige Project en Bestaande Elementenbekeeken
 Bijeenkomst met begeleider van de AP Hogeschool.
 
 ### overleg gehad met mentor over wat mijn taken en doelen zijn
+
 - Markdown leren voor documentatie etc.
 - Figma voor mockups en wireframes.
 - vercel voor deployment.
@@ -33,6 +34,6 @@ Organiseren van werkomgeving (GitHub, e-mail, .env, etc.).
 
 Toevoegen van een nieuwe feat voor styling probleem waarbij de tekst buiten het parent element valt.
 
-![Alt Text](../assets/Schermafbeelding%202024-02-26%20192914.png)
+![Alt image](../assets/Schermafbeelding%202024-02-26%20192914.png)
 
 ## first day finished successfully 👍
