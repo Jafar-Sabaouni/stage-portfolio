@@ -5,6 +5,8 @@
 - School Email: jafar.sabaouni@student.ap.be
 - Phone: +32487545241
 - Address: Terlindenhofstraat 170, Merksem 2170
+- Linkedin: https://www.linkedin.com/in/jafar-sabaouni-5b1514226/
+  
 
 ## TALEN
 - Nederlands (Moedertaal)
@@ -12,9 +14,6 @@
 - Berbers (Moedertaal)
 - Frans (basis)
 - Arabisch (basis)
-
-## OVER MIJ
-Ik ben een programmeur die van jongs af aan een sterke interesse heeft gehad in programmeren. Mijn passie voor coderen is ontstaan in begin en heeft alleen maar gegroeid! Mijn focus ligt voornamelijk op front-end en full-stack ontwikkeling, waar ik me sterk tot aangetrokken voel.
 
 
 ## PROGRAMMEERVAARDIGHEDEN
