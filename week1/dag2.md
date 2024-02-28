@@ -7,11 +7,11 @@
 - Een mockup gemaakt voor de klant met figma.
 
 - old design
-  ![Alt image](../assets/Schermafbeelding%202024-02-27%20115355.png)
+- ![Alt image](../assets/Schermafbeelding%202024-02-27%20115355.png)
 
 - new design with changed input for failed and succeeded prints
 
-![Alt image](../assets/Schermafbeelding%202024-02-27%20120604.png)
+- ![Alt image](../assets/Schermafbeelding%202024-02-27%20120604.png)
 
 ### Feat 404 pagina gemaakt voor het project
 
