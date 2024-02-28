@@ -17,10 +17,9 @@
 
 
 ## PROGRAMMEERVAARDIGHEDEN
-**
 - HTML, CSS, JS, TS, C#
 - Express, MySql
 - React, React Native, Angular
 - DotNet, REST API
 - Linux, Docker, Firebase
-**
+
