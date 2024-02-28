@@ -1,4 +1,4 @@
-# Dag 3
+# Dag 3 28/2/2024
 
 ### Gitbook voorbereid en gesynchroniseerd met mijn GitHub waar mijn Markdown-blog staat
 
