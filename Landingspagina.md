@@ -1,8 +1,10 @@
 # Landingspagina
-## hey im jafar de stagaire bij aco studio 
+## Hey ik ben jafar de stagaire bij Aco Studio 
 
 
-## ACO Studio opereert binnen de sector van webdesign en ontwikkeling. Het bedrijf is
+## Aco studio 
+
+ACO Studio opereert binnen de sector van webdesign en ontwikkeling. Het bedrijf is
 gespecialiseerd in het ontwerpen en bouwen van websites met behulp van geavanceerde
 technologieën en een CMS. De primaire activiteiten van ACO Studio omvatten het leveren van
 op maat gemaakte weboplossingen voor klanten
