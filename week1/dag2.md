@@ -5,10 +5,14 @@
 * Brainstormen over een oplossing voor een van de klantproblemen met invoer voor succesvolle of mislukte prints. Ze willen in staat zijn om meerdere succesvolle prints tegelijkertijd in te voeren.
 * Figma leren om een mockup te maken voor de klant.
 * Een mockup gemaakt voor de klant met figma.
-* old design ![Alt image](<../assets/Schermafbeelding 2024-02-27 115355.png>)
-* new design with changed input for failed and succeeded prints
+* old design
+*
 
-![Alt image](<../assets/Schermafbeelding 2024-02-27 120604.png>)
+    ![Alt image](<../assets/Schermafbeelding 2024-02-27 115355.png>)
+* new design with changed input for failed and succeeded prints
+*
+
+    ![Alt image](<../assets/Schermafbeelding 2024-02-27 120604.png>)
 
 ### Feat 404 pagina gemaakt voor het project
 
