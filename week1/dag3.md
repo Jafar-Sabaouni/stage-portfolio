@@ -19,8 +19,8 @@
 
 - Nieuwe ontwerpen getoond aan de klant, waaronder het responsive design voor mobiel.
 - Bespreking van ideeën en ontwerpen volgens onze visie en die van de klant.
-- Na de vergadering, samen met de klant, kort gesproken over het implementeren van fysieke authenticatie volgens het verzoek van de klant.
+- Na de vergadering met de klant, kort gesproken over het implementeren van fysieke authenticatie volgens het verzoek van de klant(Antistatic).
 
 > Ideeën om fysieke authenticatie te implementeren:
-> 1. NFC-kaart
-> 2. Yubico Key
+1. NFC-kaart
+2. Yubico Key
