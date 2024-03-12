@@ -15,3 +15,4 @@
   * [dag 4 7/3/2024](week2/dag-4-7-3-2024.md)
   * [dag 5 8/3/2024](week2/dag-5-8-3-2024.md)
 * [week3](week3/README.md)
+  * [dag 1 11/3/2024](week3/dag-1-11-3-2024.md)
