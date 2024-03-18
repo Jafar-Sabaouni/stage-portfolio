@@ -97,7 +97,7 @@ If we decide to use a React component library, i would recommend the following o
 5. Radix UI
 6. Prime React
 
-Alternatively, if we deside not to use a component library, we  could utilizing Tailwind in together with Shadcn is advised. Shadcn provides an extensive library of components for easy code reuse, based on the Radix UI component library. This alternative eliminates dependency on a component library while offering greater flexibility for customization.
+Alternatively, if we deside not to use a component library, we  could utilizing Tailwind in together with Shadcn. Shadcn provides an extensive library of components for easy code reuse, based on the Radix UI component library. This alternative eliminates dependency on a component library while offering greater flexibility for customization.
 
 In the future, attention should also be given to Next UI, Headless UI, Shadcn, and Radix UI, as these libraries show promise and potential for further development.
 
