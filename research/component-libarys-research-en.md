@@ -18,59 +18,61 @@ Should design alterations be necessary later on, modifications can be made in a 
 
 Below, a comprehensive list of component libraries meeting our criteria is presented. While a few exceptions may not entirely meet the criteria, they offer functional alternatives tailored to our requirements.
 
-## Tailwind UI:
+## component libraries&#x20;
+
+### Tailwind UI:
 
 Tailwind UI provides an array of professionally designed components and templates. It operates as a CSS framework, emphasizing consistent and easily manageable styles via HTML-embedded classes. Though not strictly a React component library, it often pairs seamlessly with various React libraries due to its flexibility.
 
-## Material-UI:
+### Material-UI:
 
 Formerly known as MUI, Material-UI offers a comprehensive suite of React components alongside a plethora of customization options, making it a top choice for modern UI development. Additionally, MUI supports themes and customization.
 
-## Ant Design:
+### Ant Design:
 
 Ant Design offers an extensive collection of customizable UI components, renowned for its clean and professional design. Similar to Material-UI, it also supports themes and provides design tools.
 
-## Chakra UI:
+### Chakra UI:
 
 Chakra UI stands out as an accessible and adaptable React component library, providing a robust system of components and hooks. While lacking direct theme support, it empowers developers to tailor components to their specific needs, prioritizing simplicity and accessibility.
 
-## React-Aria:
+### React-Aria:
 
 Developed by Adobe, React-Aria encompasses not only components but also a broad array of hooks, layouts, testing, and routing utilities. Supporting CSS and Tailwind, it enables the creation of flexible and accessible components.
 
-## Radix UI:
+### Radix UI:
 
 Optimized for swift development and accessibility, Radix UI is an open-source component library offering a user-friendly experience, particularly in keyboard navigation. With no preset styles, developers have the freedom to apply custom styles using CSS or Tailwind.
 
-## Shadcn:
+### Shadcn:
 
 Shadcn stands out as a non-component library, offering a repository of components whose code can be copied without the need for npm package installation. Most components within Shadcn are replicas of Radix UI components.
 
-## Prime React:
+### Prime React:
 
 Prime React boasts a reliable selection of components with a design focus, compatible with Tailwind and offering theme support.
 
-## Next UI:
+### Next UI:
 
 Next UI emerges as a sleekly designed React UI library, leveraging React Aria and Tailwind for styling. It offers a wide range of customizable components, emphasizing a unique developer experience with automatic dark mode detection.
 
-## Headless UI:
+### Headless UI:
 
 Developed by Tailwind, Headless UI presents a unique component library with a distinct approach to component invocation. Though offering a limited number of components, each comes with subcomponents. Unfortunately, Headless UI lacks theme support, but developers can utilize Tailwind for custom theming.
 
-## React Bootstrap:
+### React Bootstrap:
 
 A popular choice, React Bootstrap replaces Bootstrap's JavaScript components with native React components, enabling their integration into React applications. Compatible with existing Bootstrap themes, it serves as a solid foundation for UI development.
 
-## Fluent UI:
+### Fluent UI:
 
 Hailing from Microsoft, Fluent UI offers a comprehensive framework suitable for various platforms, including web, iOS, and Android. Supporting themes, it facilitates the creation of consistent user experiences across platforms.
 
-## Carbon Design System:
+### Carbon Design System:
 
 Developed by IBM, Carbon Design System is highly regarded for its business-centric approach, particularly suitable for dashboard applications. While similar to Fluent UI in style, it excels in data visualization, offering extensive components for visualizing data. It also supports themes.
 
-## Blueprint:
+### Blueprint:
 
 Comparable to Fluent UI, Blueprint provides a reliable solution for creating traditional dashboard-style interfaces. Despite a somewhat outdated appearance, it boasts a wide selection of components. Unfortunately, customization options are limited, despite theme support.
 
