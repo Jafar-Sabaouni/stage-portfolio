@@ -76,6 +76,10 @@ Comparable to Fluent UI, Blueprint provides a reliable solution for creating tra
 
 
 
+### tabel:
+
+
+
 <table><thead><tr><th width="216">name</th><th width="148">Github stars</th><th width="134">release year</th><th>daily npm Downloads</th></tr></thead><tbody><tr><td>Tailwind UI</td><td>77.1k</td><td>2017</td><td>8.647.826</td></tr><tr><td>Material-UI</td><td>91.1k</td><td>2014</td><td>3.754.279</td></tr><tr><td>Ant Design</td><td>89.7k</td><td>2015</td><td>1.377.697</td></tr><tr><td>Chakra UI</td><td>36.2k</td><td>2019</td><td>566.752</td></tr><tr><td>React-Aria</td><td>11.4k</td><td>2022</td><td>440.242</td></tr><tr><td>Radix UI</td><td>13.7k</td><td>Onbekend</td><td>6.489</td></tr><tr><td>Shadcn</td><td>52.5k</td><td>2023</td><td>Staat niet op npm</td></tr><tr><td>Prime React</td><td>5.5k</td><td>2017</td><td>125.058</td></tr><tr><td>Next UI</td><td>18.7k</td><td>2021</td><td>90.739</td></tr><tr><td>Headless UI</td><td>23.8k</td><td>2020</td><td>1.701.895</td></tr><tr><td>Carbon Design System</td><td>7.4k</td><td>2017</td><td>113.383</td></tr><tr><td>React Bootstrap</td><td>22.2k</td><td>2014</td><td>2.016.427</td></tr><tr><td>Fluent UI</td><td>17.5k</td><td>Onbekend</td><td>177.59</td></tr><tr><td>Blueprint</td><td>0.513k</td><td>2016</td><td>205.414</td></tr></tbody></table>
 
 Each of these component libraries has its strengths and weaknesses, with the suitability depending on specific project requirements. In the case of Antistatic, a 3D printing company, we prioritize not only popularity but also features such as theme support, modern aesthetics, and dashboard functionality.
