@@ -1,5 +1,7 @@
 # component libarys research EN
 
+<figure><img src="../.gitbook/assets/Ontwerp zonder titel.png" alt=""><figcaption></figcaption></figure>
+
 ### Why opt for a React component library when CSS could suffice?&#x20;
 
 #### Efficiency:
