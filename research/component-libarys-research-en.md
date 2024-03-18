@@ -22,7 +22,9 @@ Below, a comprehensive list of component libraries meeting our criteria is prese
 
 Tailwind UI provides an array of professionally designed components and templates. It operates as a CSS framework, emphasizing consistent and easily manageable styles via HTML-embedded classes. Though not strictly a React component library, it often pairs seamlessly with various React libraries due to its flexibility.
 
-## Material-UI:Formerly known as MUI, Material-UI offers a comprehensive suite of React components alongside a plethora of customization options, making it a top choice for modern UI development. Additionally, MUI supports themes and customization.
+## Material-UI:
+
+Formerly known as MUI, Material-UI offers a comprehensive suite of React components alongside a plethora of customization options, making it a top choice for modern UI development. Additionally, MUI supports themes and customization.
 
 ## Ant Design:
 
