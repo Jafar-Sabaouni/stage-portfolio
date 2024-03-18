@@ -21,3 +21,5 @@
   * [dag 4 14/3/2024](week3/dag-4-14-3-2024.md)
   * [dag 5 15/3/2024](week3/dag-5-15-3-2024.md)
 * [component libarys research](component-libarys-research.md)
+* [week 4](week-4.md)
+* [dag 1 18/3/2024](dag-1-18-3-2024.md)
