@@ -80,7 +80,7 @@ Each of these component libraries has its strengths and weaknesses, with the sui
 
 ### Conclusion:
 
-If we decide to use a React component library, i would recommend the following options are recommended:
+If we decide to use a React component library, i would recommend the following options:
 
 1. Material-UI
 2. Fluent UI
