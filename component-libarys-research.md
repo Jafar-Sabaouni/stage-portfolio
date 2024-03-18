@@ -70,22 +70,7 @@ Carbon Design System, ontwikkeld door IBM, is een zeer erkende componentenbiblio
 
 Blueprint is vergelijkbaar met Fluent UI. Het biedt een solide manier om een traditionele dashboardstijl te creëren. Hoewel de stijl enigszins verouderd lijkt, heeft Blueprint een uitgebreide selectie van componenten. Helaas biedt het niet veel aanpassingsmogelijkheden, ondanks de ondersteuning voor theme's.
 
-| Naam                 | Github Sterren | Jaar van uitgave | Wekelijkse npm Downloads |
-| -------------------- | -------------- | ---------------- | ------------------------ |
-| Tailwind UI          | 77.1k          | 2017             | 8.647.826                |
-| Material-UI          | 91.1k          | 2014             | 3.754.279                |
-| Ant Design           | 89.7k          | 2015             | 1.377.697                |
-| Chakra UI            | 36.2k          | 2019             | 566.752                  |
-| React-Aria           | 11.4k          | 2022             | 440.242                  |
-| Radix UI             | 13.7k          | Onbekend         | 6.489                    |
-| Shadcn               | 52.5k          | 2023             | Staat niet op npm        |
-| Prime React          | 5.5k           | 2017             | 125.058                  |
-| Next UI              | 18.7k          | 2021             | 90.739                   |
-| Headless UI          | 23.8k          | 2020             | 1.701.895                |
-| React Bootstrap      | 22.2k          | 2014             | 2.016.427                |
-| Fluent UI            | 17.5k          | Onbekend         | 177.59                   |
-| Blueprint            | 0.513k         | 2016             | 205.414                  |
-| Carbon Design System | 7.4k           | 2017             | 113.383                  |
+<table><thead><tr><th width="220">Naam</th><th width="148">Github Sterren</th><th width="156">Jaar van uitgave</th><th>Wekelijkse npm Downloads</th></tr></thead><tbody><tr><td>Tailwind UI</td><td>77.1k</td><td>2017</td><td>8.647.826</td></tr><tr><td>Material-UI</td><td>91.1k</td><td>2014</td><td>3.754.279</td></tr><tr><td>Ant Design</td><td>89.7k</td><td>2015</td><td>1.377.697</td></tr><tr><td>Chakra UI</td><td>36.2k</td><td>2019</td><td>566.752</td></tr><tr><td>React-Aria</td><td>11.4k</td><td>2022</td><td>440.242</td></tr><tr><td>Radix UI</td><td>13.7k</td><td>Onbekend</td><td>6.489</td></tr><tr><td>Shadcn</td><td>52.5k</td><td>2023</td><td>Staat niet op npm</td></tr><tr><td>Prime React</td><td>5.5k</td><td>2017</td><td>125.058</td></tr><tr><td>Next UI</td><td>18.7k</td><td>2021</td><td>90.739</td></tr><tr><td>Headless UI</td><td>23.8k</td><td>2020</td><td>1.701.895</td></tr><tr><td>Carbon Design System</td><td>7.4k</td><td>2017</td><td>113.383</td></tr><tr><td>React Bootstrap</td><td>22.2k</td><td>2014</td><td>2.016.427</td></tr><tr><td>Fluent UI</td><td>17.5k</td><td>Onbekend</td><td>177.59</td></tr><tr><td>Blueprint</td><td>0.513k</td><td>2016</td><td>205.414</td></tr></tbody></table>
 
 Elke van deze component libarys heeft zijn voor en nadelen, en de score hangt af van het gebruik van de component libary. In ons geval is dit voor een website met een dashboard voor het bedrijf Antistatic, een 3D-printbedrijf. Daarom kijk ik niet alleen naar populariteit, maar ook naar functies zoals ondersteuning voor thema's, moderne look en dashboardfunctionaliteit.\*\*
 
@@ -103,6 +88,6 @@ Elke van deze component libarys heeft zijn voor en nadelen, en de score hangt af
 
 **6 Prime React**
 
-Als we toch besluiten om geen component libary te gebruiken, zou ik aanraden om **Tailwind** samen met **Shadcn** te gebruiken. **Shadcn** biedt een uitgebreide bibliotheek van on componenten aan waarvan je de code gemakkelijk kunt kopiëren en hergebruiken. Het is gebaseerd op de Radix UI component libary het heeft alle componenten van Radix UI en meer. Ik vind dit een ideale alternatief omdat het de dependency van een component libary weghaalt. Het geeft je ook meer mogelijkheid om zelf aanpassingen te maken aan de components.
+Als we toch besluiten om geen component libary te gebruiken, zou ik aanraden om **Tailwind** samen met **Shadcn** te gebruiken. **Shadcn** biedt een uitgebreide bibliotheek van on componenten aan waarvan je de code gemakkelijk kan kopiëren en hergebruiken. Het is gebaseerd op de Radix UI component libary het heeft alle componenten van Radix UI en meer. Ik vind dit een ideale alternatief omdat het de dependency van een component libary weghaalt. Het geeft je ook meer mogelijkheid om zelf aanpassingen te maken aan de components.
 
-Ik zou in de toekomst toch oog houden op Next ui , Headless UI , Shadcn en Radix UI. Deze libary’s lijken toch wat meer te verbergen en hebben heel wat potentieel.
+Ik zou in de toekomst ook oog houden op Next ui , Headless UI , Shadcn en Radix UI. Deze libary’s lijken toch wat meer te verbergen en hebben heel wat potentieel.
