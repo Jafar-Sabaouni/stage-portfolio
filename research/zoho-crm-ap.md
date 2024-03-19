@@ -1,6 +1,8 @@
 # Zoho CRM AP
 
-Refresh Access Token: How does authentication work on our project: When pressing login we redirect to the login url from zoho. After the user accepts he gets redirected back to the LoginRedirect and gets the access token in the url and it gets send to the authContext. SetToken witch saves the token to local storage.
+### Refresh Access Token:&#x20;
+
+How does authentication work on our project: When pressing login we redirect to the login url from zoho. After the user accepts he gets redirected back to the LoginRedirect and gets the access token in the url and it gets send to the authContext. SetToken witch saves the token to local storage.
 
 The info in red in irrelevant to our project but was recommended by the bad zoho documentation
 
@@ -91,7 +93,11 @@ Things to keep in mind :
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-quick way to switch between logged in users: Ive searched around and found that Zoho Chat Cliq has a similar feature, but it's only accessible within their internal products. https://help.zoho.com/portal/en/kb/zoho-cliq/user-guides/getting-started/create-a-cliq-account/articles/multi-account-login-support-for-the-cliq-desktop-application#Managing\_Accounts[^3]
+### quick way to switch between logged in users:&#x20;
+
+Ive searched around and found that Zoho Chat Cliq has a similar feature, but it's only accessible within their internal products.&#x20;
+
+https://help.zoho.com/portal/en/kb/zoho-cliq/user-guides/getting-started/create-a-cliq-account/articles/multi-account-login-support-for-the-cliq-desktop-application#Managing\_Accounts
 
 There is no mention in Zoho's documentation about similar functionality for switching between multiple users. Someone has already attempted something similar, but they haven't received a response from Zoho yet. https://help.zoho.com/portal/en/kb/accounts/faqs-troubleshooting/faqs/oneauth/articles/how-to-switch-between-multiple-zoho-accounts
 
@@ -100,12 +106,10 @@ Approach 1: the best way is if we kept all users loged in and refresh their toke
 Approach 2: I have a different idea for solving this problem. What if we create a fake user? This user would have access to all the information from the accounts. Then, we can call up the accounts and let the user choose from them. Once the choice is made, we can store the account's ID in the local storage.
 
 Getting user from CRM may be useful in the future:\
-https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm[^4]
+https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm[^3]
 
 [^1]: 
 
 [^2]: 
 
 [^3]: 
-
-[^4]: 
