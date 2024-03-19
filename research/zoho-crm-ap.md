@@ -75,6 +75,8 @@ https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html[^2]
 The explanation says that for a client-based application, you need to request the authentication token through a link just like we where doing. Upon logging in to the Zoho authentication, they will be redirected back to the application. Example :\
 <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
 To refresh a token is pretty easy all we need to do is redirect the user to a zoho refresh URL that immediately sends a redirects back to your project together with a new URL Example : <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth/refresh? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
 Things to keep in mind :
