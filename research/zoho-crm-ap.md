@@ -87,12 +87,11 @@ To refresh a token is pretty easy all we need to do is redirect the user to a zo
 
 1. The authentication token gets updated each time the user does a refresh If u try to refresh a token while the your logged out of your zoho account u won't get a authentication token back.
 2. If u try to refresh a token in a different session u wont get a authentication token back.
-3. a refresh can happen even after a hour if its in the same tab
-4. U can only do 20 refreshments if a span of 20min.
-5. And only 10 authentications in a span of 10min.
-6. If u alter a authentication token u wont be able to refresh.
-7. One authentication key can be used across browser tabs
-8. U need to give acces for the whole session otherwise u want be able to refresh
+3. a refresh can happen even after a hour if its in the same sassion
+4. And only 10 authentications in a span of 10min.
+5. If u alter a authentication token u wont be able to refresh.
+6. One authentication key can be used across browser tabs
+7. U need to give acces for the whole session otherwise u want be able to refresh
 
 
 
