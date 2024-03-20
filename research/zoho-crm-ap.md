@@ -69,6 +69,8 @@ The info in red in irrelevant to our project but was recommended by the bad zoho
 
 <mark style="color:red;">We encountered errors while attempting to request the code instead of the token because we can utilize the code to request both the access token and refresh token.</mark>
 
+#### conclusion:
+
 After conducting further research, I've come to realize that all the data I've gathered so far is useless.\
 It appears that although the documentation didn't explicitly state it, the process they outlined is intended for a server-based application, but we are trying to develop a client-based application so its natulal that we encounter errors.
 
@@ -81,7 +83,7 @@ The explanation says that for a client-based application, you need to request th
 
 To refresh a token is pretty easy all we need to do is redirect the user to a zoho refresh URL that immediately sends a redirects back to your project together with a new URL Example : <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth/refresh? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
-Things to keep in mind :
+#### Things to keep in mind :
 
 1. The authentication token gets updated each time the user does a refresh If u try to refresh a token while the your logged out of your zoho account u won't get a authentication token back.
 2. If u try to refresh a token in a different session u wont get a authentication token back.
