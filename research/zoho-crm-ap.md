@@ -70,7 +70,7 @@ The info in red in irrelevant to our project but was recommended by the bad zoho
 <mark style="color:red;">We encountered errors while attempting to request the code instead of the token because we can utilize the code to request both the access token and refresh token.</mark>
 
 After conducting further research, I've come to realize that all the data I've gathered so far is useless.\
-It appears that although the documentation didn't explicitly state it, the process they outlined is intended for a server-based application, but we are attempting to develop a client-based application so its natulal that we encounter errors.
+It appears that although the documentation didn't explicitly state it, the process they outlined is intended for a server-based application, but we are trying to develop a client-based application so its natulal that we encounter errors.
 
 https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html[^2]
 
