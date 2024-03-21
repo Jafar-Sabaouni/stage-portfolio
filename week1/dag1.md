@@ -1,6 +1,7 @@
 # dag 1 26/2/2024
+leerdoelen bespreken , Werkomgeving Organiseren , Eerste Taak , Nieuwe feat toevoegen
 
-### Leerdoelen Werkplekleren
+## Leerdoelen Werkplekleren
 
 - Bespreken van leerdoelen met stagebegeleider.
 - Bespreking over het gebruik van de agile methodiek Scrum.
@@ -21,19 +22,19 @@ Bijeenkomst met begeleider van de AP Hogeschool.
 - vite voor een lokale ontwikkelingsserver.
 - Prettier - Code formatter om het aantal conflicten tijdens het mergen te verminderen.
 
-### Werkomgeving Organiseren
+## Werkomgeving Organiseren
 
 Organiseren van werkomgeving (GitHub, e-mail, .env, etc.).
 
-### Eerste Taak: Maak kolommen gelijke breedte
+## Eerste Taak: Maak kolommen gelijke breedte
 
 - Breete van de kolommen aangepast op de dashboard voor het ANTISTATIC project(stage project) .
 - Eerste pull request gemaakt naar de repository.
 
-### Nieuwe feat toevoegen voor Styling Probleem
+## Nieuwe feat toevoegen voor Styling Probleem
 
 Toevoegen van een nieuwe feat voor styling probleem waarbij de tekst buiten het parent element valt.
 
 ![Alt image](../assets/Schermafbeelding%202024-02-26%20192914.png)
 
-## first day finished successfully 👍
+first day finished successfully 👍
