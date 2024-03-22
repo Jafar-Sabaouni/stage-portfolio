@@ -26,7 +26,7 @@ The info in red in irrelevant to our project but was recommended by the bad zoho
 
 `}`&#x20;
 
-[<mark style="color:red;">https://www.zoho.com/crm/developer/docs/api/v6/refresh.html Refresh</mark>](#user-content-fn-1)[^1] <mark style="color:red;">Token</mark>&#x20;
+https://www.zoho.com/crm/developer/docs/api/v6/refresh.html Refresh <mark style="color:red;">Token</mark>&#x20;
 
 &#x20;<mark style="color:red;">Refresh tokens do not expire until a user revokes them.</mark>&#x20;
 
@@ -74,7 +74,7 @@ The info in red in irrelevant to our project but was recommended by the bad zoho
 After conducting further research, I've come to realize that all the data I've gathered so far is useless.\
 It appears that although the documentation didn't explicitly state it, the process they outlined is intended for a server-based application, but we are trying to develop a client-based application so its natulal that we encounter errors.
 
-https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html[^2]
+https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html[^1]
 
 The explanation says that for a client-based application, you need to request the authentication token through a link just like we where doing. Upon logging in to the Zoho authentication, they will be redirected back to the application. Example :\
 <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
@@ -105,14 +105,35 @@ It save the expires in that gets send back as a response.
 
 It check each time the app is loaded to see when we last obtained a token. If it's less than an hour, the program will schedule a refresh according to the remaining time. For instance, if we have 30 minutes left before the token expires it will schedule a refresh for 20 minutes from the current time.
 
-\
+### loading data&#x20;
+
+currently were only getting 200 records wel need to add logic that keeps fetching data till all the data is fetched &#x20;
+
+### Refresh data when someone updates the data&#x20;
+
+Originally, I had an idea to add a timestamp value within the Zoho CRM. This timestamp would be updated whenever a user adds a PUT, enabling all devices accessing our website to compare the timestamps. Depending on the value, they could proceed with a refresh.
+
+But after some research i found out they already have a similar feature.&#x20;
+
+[https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html](https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html)
+
+<figure><img src="../.gitbook/assets/Schermafbeelding 2024-03-08 105759.png" alt=""><figcaption></figcaption></figure>
+
+### search function in our project 
+
+We have two options for implementing a search feature. First, we could opt for a local search within the data we already possess. Alternatively, we could utilize the search records functionality of the Zoho API.
+
+If we choose to implement a local search, we'll gain greater search flexibility since we can ignore case sensitivity and utilize the include function, allowing users to search for partial matches. On the other hand, implementing the Zoho API search will require us to manage less data but we will get a worce responce
+
+[https://www.zoho.com/crm/developer/docs/api/v6/search-records.html](https://www.zoho.com/crm/developer/docs/api/v6/search-records.html)
+
 
 
 ### quick way to switch between logged in users:&#x20;
 
 Ive searched around and found that Zoho Chat Cliq has a similar feature, but it's only accessible within their internal products.&#x20;
 
-https://help.zoho.com/portal/en/kb/zoho-cliq/user-guides/getting-started/create-a-cliq-account/articles/multi-account-login-support-for-the-cliq-desktop-application#Managing\_Accounts
+[https://help.zoho.com/portal/en/kb/zoho-cliq/user-guides/getting-started/create-a-cliq-account/articles/multi-account-login-support-for-the-cliq-desktop-application#Managing\_Accounts](https://help.zoho.com/portal/en/kb/zoho-cliq/user-guides/getting-started/create-a-cliq-account/articles/multi-account-login-support-for-the-cliq-desktop-application#Managing\_Accounts)
 
 There is no mention in Zoho's documentation about similar functionality for switching between multiple users. Someone has already attempted something similar, but they haven't received a response from Zoho yet. https://help.zoho.com/portal/en/kb/accounts/faqs-troubleshooting/faqs/oneauth/articles/how-to-switch-between-multiple-zoho-accounts
 
@@ -121,10 +142,8 @@ Approach 1: the best way is if we kept all users loged in and refresh their toke
 Approach 2: I have a different idea for solving this problem. What if we create a fake user? This user would have access to all the information from the accounts. Then, we can call up the accounts and let the user choose from them. Once the choice is made, we can store the account's ID in the local storage.
 
 Getting user from CRM may be useful in the future:\
-https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm[^3]
+
+
+[https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm](https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm)
 
 [^1]: 
-
-[^2]: 
-
-[^3]: 
