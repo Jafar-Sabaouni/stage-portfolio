@@ -119,11 +119,15 @@ This wont be that had we just have to keep doing request till the more-records v
 
 Originally, I had an idea to add a timestamp value within the Zoho CRM. This timestamp would be updated whenever a user adds a PUT, enabling all devices accessing our website to compare the timestamps. Depending on the value, they could proceed with a refresh.
 
-But after some research i found out they already have a similar feature.&#x20;
+But after some research i found out they already have a similar feature. where they store the last updated time.
 
-[https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html](https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html)
+[https://www.zoho.com/crm/developer/docs/api/v6/modules-api.htm](https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html)
+
+
 
 <figure><img src="../.gitbook/assets/Schermafbeelding 2024-03-08 105759.png" alt=""><figcaption></figcaption></figure>
+
+i also am doing research into stale data&#x20;
 
 ### search function in our project 
 
