@@ -97,7 +97,7 @@ To refresh a token is pretty easy all we need to do is redirect the user to a zo
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### tecnical explanation of how il try to implement the refresh
+### technical explanation of how il try to implement the auth refresh
 
 It save a timestamp of the moment we get the timestamp in local storage.
 
@@ -108,6 +108,12 @@ It check each time the app is loaded to see when we last obtained a token. If it
 ### loading data&#x20;
 
 currently were only getting 200 records wel need to add logic that keeps fetching data till all the data is fetched &#x20;
+
+This wont be that had we just have to keep doing request till the more-records value is false.
+
+[https://www.zoho.com/crm/developer/docs/api/v6/get-records.html](https://www.zoho.com/crm/developer/docs/api/v6/get-records.html)
+
+[https://www.bigin.com/developer/docs/apis/get-records.html](https://www.bigin.com/developer/docs/apis/get-records.html)
 
 ### Refresh data when someone updates the data&#x20;
 
