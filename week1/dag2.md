@@ -1,3 +1,10 @@
+---
+description: >-
+  Breainstormen, Feat 404 pagina gemaakt voor het project, Feat de induvidueele
+  kolommen scrollable maken, Feat Better fallback screen when authentication is
+  expired,
+---
+
 # dag 2 27/2/2024
 
 ### Breainstormen
