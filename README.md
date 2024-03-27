@@ -1,10 +1,5 @@
 ---
-cover: .gitbook/assets/stage banner.png
-coverY: 11.319999999999999
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
@@ -18,6 +13,10 @@ layout:
 ---
 
 # Landingspagina
+
+##
+
+<figure><img src=".gitbook/assets/stage banner.png" alt=""><figcaption></figcaption></figure>
 
 ## Hey ik ben jafar de stagaire bij Aco Studio
 
