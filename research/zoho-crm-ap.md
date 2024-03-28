@@ -4,84 +4,14 @@
 
 How does authentication work on our project: When pressing login we redirect to the login url from zoho. After the user accepts he gets redirected back to the LoginRedirect and gets the access token in the url and it gets send to the authContext. SetToken witch saves the token to local storage.
 
-The info in red in irrelevant to our project but was recommended by the bad zoho documentation
-
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
-
-<mark style="color:red;">{Accounts\_URL}/oauth/v2/token?refresh\_token={refresh\_token}\&client\_id={client\_id}\&client\_secret={client\_secret}\&grant\_type=refresh\_token</mark>&#x20;
-
-<mark style="color:red;">If the request is successful, you will receive the following output:</mark>
-
-
-
-`{`&#x20;
-
-&#x20;   `"access_token": "{new_access_token}",`&#x20;
-
-&#x20;   `"expires_in": 3600,`&#x20;
-
-&#x20;   `"api_domain": "https://www.zohoapis.com",`&#x20;
-
-&#x20;   `"token_type": "Bearer"`&#x20;
-
-`}`&#x20;
-
-https://www.zoho.com/crm/developer/docs/api/v6/refresh.html Refresh <mark style="color:red;">Token</mark>&#x20;
-
-&#x20;<mark style="color:red;">Refresh tokens do not expire until a user revokes them.</mark>&#x20;
-
-<mark style="color:red;">You can generate a maximum of 10 access tokens from a refresh token in a span of 10 minutes.</mark>&#x20;
-
-<mark style="color:red;">You can generate a maximum of 20 refresh tokens in a span of 10 minutes per client ID.</mark>&#x20;
-
-<mark style="color:red;">When you generate the 21st refresh token, the first created refresh token gets deleted.4</mark>&#x20;
-
-<mark style="color:red;">To generate a refresh token</mark>&#x20;
-
-\
-<mark style="color:red;">Make a POST request with the following URL. Replace {Accounts\_URL} with your domain-specific Zoho accounts URL when you make the request. {Accounts\_URL}/oauth/v2/token</mark>&#x20;
-
-<mark style="color:red;">Note:</mark>&#x20;
-
-<mark style="color:red;">For security reasons, pass the below parameters in the body of your request as form-data.</mark>&#x20;
-
-<mark style="color:red;">Request Parameters grant type Enter the value as "authorization\_code". client\_id Specify client-id obtained from the connected app.</mark>&#x20;
-
-<mark style="color:red;">client\_secret Specify client-secret obtained from the connected app.</mark>&#x20;
-
-<mark style="color:red;">redirect\_uri Specify the Callback URL that you registered during the app registration.</mark>&#x20;
-
-<mark style="color:red;">code Enter the grant token generated from previous step. If the request is successful, you would receive the following:</mark>&#x20;
-
-`{`
-
-&#x20;`"access_token": "{access_token}",`&#x20;
-
-`"refresh_token": "{refresh_token}",`&#x20;
-
-`"api_domain": "https://www.zohoapis.com",`&#x20;
-
-`"token_type": "Bearer", "expires_in": 3600`&#x20;
-
-`}`
-
-<mark style="color:red;">Error met de code request</mark>&#x20;
-
-<mark style="color:red;">We encountered errors while attempting to request the code instead of the token because we can utilize the code to request both the access token and refresh token.</mark>
-
-#### conclusion:
-
-After conducting further research, I've come to realize that all the data I've gathered so far is useless.\
-It appears that although the documentation didn't explicitly state it, the process they outlined is intended for a server-based application, but we are trying to develop a client-based application so its natulal that we encounter errors.
-
-https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html[^1]
+{% embed url="https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html" %}
 
 The explanation says that for a client-based application, you need to request the authentication token through a link just like we where doing. Upon logging in to the Zoho authentication, they will be redirected back to the application. Example :\
-<mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
+<mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-To refresh a token is pretty easy all we need to do is redirect the user to a zoho refresh URL that immediately sends a redirects back to your project together with a new URL Example : <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth/refresh? client\_id=1000.GMB0YULZHJK411248S8I5GZ4CHUEX0& response\_type=token& scope=AaaServer.profile.Read& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
+To refresh a token is pretty easy all we need to do is redirect the user to a zoho refresh URL that immediately sends a redirects back to your project together with a new URL Example : <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth/refresh? client\_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx& response\_type=token& scope=AaaServer.profile.Read& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
 #### Things to keep in mind :
 
@@ -89,15 +19,14 @@ To refresh a token is pretty easy all we need to do is redirect the user to a zo
 2. If u try to refresh a token in a different session u wont get a authentication token back.
 3. a refresh can happen even after a hour if its in the same sassion
 4. And only 10 authentications in a span of 10min( on the same device and account ).
-5. If u alter a authentication token u wont be able to refresh.
-6. One authentication key can be used across browser tabs
-7. U need to give acces for the whole session otherwise u want be able to refresh
+5. One authentication key can be used across browser tabs
+6. U need to give acces for the whole session otherwise u want be able to refresh
 
 
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-### technical explanation of how il try to implement the auth refresh
+#### technical explanation of how il try to implement the auth refresh
 
 It save a timestamp of the moment we get the timestamp in local storage.
 
@@ -105,7 +34,34 @@ It save the expires in that gets send back as a response.
 
 It check each time the app is loaded to see when we last obtained a token. If it's less than an hour, the program will schedule a refresh according to the remaining time. For instance, if we have 30 minutes left before the token expires it will schedule a refresh for 20 minutes from the current time.
 
-### loading data&#x20;
+
+
+### get curently logged in user&#x20;
+
+{% embed url="https://www.zoho.com/crm/developer/docs/api/v6/get-users.html" %}
+
+this was quit straight forward&#x20;
+
+basically we do a  get and get back the currently logged in user,
+
+We can request users by id or by type.&#x20;
+
+example of a request `https://www.zohoapis.com/crm/v6/users?type=AllUsers`
+
+list of all the type of users we can get :
+
+* **AllUsers** - To list all users in your organization (both active and inactive users).
+* **ActiveUsers** - To get the list of all the Active Users.
+* **DeactiveUsers** - To get the list of all the users who were deactivated.
+* **ConfirmedUsers** - To get the list of all the confirmed users.
+* **NotConfirmedUsers** - To get the list of all the non-confirmed users.
+* **DeletedUsers** - To get the list of deleted users.
+* **ActiveConfirmedUsers** - To get the list of active users who are also confirmed.
+* **AdminUsers** - To get the list of admin users.
+* **ActiveConfirmedAdmins** - To get the list of active users with the administrative privileges and are also confirmed.
+* **CurrentUser** - To get the current CRM user.
+
+### loading data (will be added in the future)
 
 currently were only getting 200 records wel need to add logic that keeps fetching data till all the data is fetched &#x20;
 
@@ -115,7 +71,7 @@ This wont be that had we just have to keep doing request till the more-records v
 
 [https://www.bigin.com/developer/docs/apis/get-records.html](https://www.bigin.com/developer/docs/apis/get-records.html)
 
-### Refresh data when someone updates the data&#x20;
+### Refresh data when someone updates the data (will be added in the future)
 
 Originally, I had an idea to add a timestamp value within the Zoho CRM. This timestamp would be updated whenever a user adds a PUT, enabling all devices accessing our website to compare the timestamps. Depending on the value, they could proceed with a refresh.
 
@@ -129,7 +85,7 @@ But after some research i found out they already have a similar feature. where t
 
 i also am doing research into stale data&#x20;
 
-### search function in our project 
+### search function in our project(will be added in the future) 
 
 We have two options for implementing a search feature. First, we could opt for a local search within the data we already possess. Alternatively, we could utilize the search records functionality of the Zoho API.
 
@@ -155,5 +111,3 @@ Getting user from CRM may be useful in the future:\
 
 
 [https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm](https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm)
-
-[^1]: 
