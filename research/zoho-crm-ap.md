@@ -34,9 +34,14 @@ It save the expires in that gets send back as a response.
 
 It check each time the app is loaded to see when we last obtained a token. If it's less than an hour, the program will schedule a refresh according to the remaining time. For instance, if we have 30 minutes left before the token expires it will schedule a refresh for 20 minutes from the current time.
 
+<figure><img src="../.gitbook/assets/Schermafbeelding 2024-03-25 152153.png" alt=""><figcaption></figcaption></figure>
 
+flowcharts extra info :
 
-### get curently logged in user&#x20;
+* this flow repeats at each login refresh and when a tab is opened when you still have a valid auth token
+* refresh = 50 // minutes&#x20;
+
+### get currently logged in user&#x20;
 
 {% embed url="https://www.zoho.com/crm/developer/docs/api/v6/get-users.html" %}
 
@@ -71,7 +76,7 @@ This wont be that had we just have to keep doing request till the more-records v
 
 [https://www.bigin.com/developer/docs/apis/get-records.html](https://www.bigin.com/developer/docs/apis/get-records.html)
 
-### Refresh data when someone updates the data (will be added in the future)
+### Refresh data when someone updates the data <mark style="color:red;">(will be added in the future)</mark>
 
 Originally, I had an idea to add a timestamp value within the Zoho CRM. This timestamp would be updated whenever a user adds a PUT, enabling all devices accessing our website to compare the timestamps. Depending on the value, they could proceed with a refresh.
 
@@ -85,7 +90,7 @@ But after some research i found out they already have a similar feature. where t
 
 i also am doing research into stale data&#x20;
 
-### search function in our project(will be added in the future) 
+### search function in our project<mark style="color:red;">(will be added in the future)</mark> 
 
 We have two options for implementing a search feature. First, we could opt for a local search within the data we already possess. Alternatively, we could utilize the search records functionality of the Zoho API.
 

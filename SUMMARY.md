@@ -29,6 +29,7 @@
 * [week 5](week-5/README.md)
   * [dag 1 25/3/2024](week-5/dag-1-25-3-2024.md)
   * [dag 2 26/3/2024](week-5/dag-2-26-3-2024.md)
+  * [dag 3 27/3/2024](week-5/dag-3-27-3-2024.md)
 * [Research](research/README.md)
   * [React TS data fetching libraries](research/react-ts-data-fetching-libraries.md)
   * [component libarys research NL](research/component-libarys-research-nl.md)
