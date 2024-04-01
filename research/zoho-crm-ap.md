@@ -112,7 +112,3 @@ Approach 1: the best way is if we kept all users loged in and refresh their toke
 
 Approach 2: I have a different idea for solving this problem. What if we create a fake user? This user would have access to all the information from the accounts. Then, we can call up the accounts and let the user choose from them. Once the choice is made, we can store the account's ID in the local storage.
 
-Getting user from CRM may be useful in the future:\
-
-
-[https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm](https://help.zoho.com/portal/en/community/topic/how-to-get-user-id-from-crm)
