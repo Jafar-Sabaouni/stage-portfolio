@@ -2,70 +2,77 @@
 
 <figure><img src="../.gitbook/assets/Ontwerp zonder titel.png" alt=""><figcaption></figcaption></figure>
 
-### What is a component library&#x20;
+### What is a component library?
 
-A component library comprises pre-designed and pre-built user interface elements that can be utilized across various projects. This tool is invaluable as it enables the utilization of thoroughly tested, reviewed, and refined components, ensuring efficient development.&#x20;
+A component library comprises pre-designed and pre-built user interface elements that can be utilized across various projects. This tool is invaluable as it enables the utilization of thoroughly tested, reviewed, and refined components, ensuring efficient development.
 
-Component libraries are great tools to work with and have a lot of features. However, one significant drawback is that some can draw users into the library's ecosystem to such an extent that they become overly reliant on it, hindering their ability to enhance their styling or behavioral functionality of their site.&#x20;
+Component libraries are great tools to work with and have a lot of features. However, one significant drawback is that some can draw users into the library's ecosystem to such an extent that they become overly reliant on it, hindering their ability to enhance the styling or behavioral functionality of their site.
 
-For our us, an ideal component library should fulfill several criteria. Firstly, it should provide a consistent and universal style across the entire website, achieved through the implementation of a theme. Secondly, it should offer customizable styles by using css extensions frameworks such a Tailwind. Or a style system such as bootstrap Despite the fact that style systems offer a lot of limitations witch also limit your creativity we cant overlook the fact that they are great tools for people with less css knowledge and that cant be bothered to write css or tailwind like back end developers they also are perfect for small projects that need to be done fast. Thats why il include them in this research. Lastly it should also have a solid well worked out behavior, that keeps track of stuff like keyboard navigation, basically it needs to be user friendly.&#x20;
-
-In summary, when choosing a component library, consider factors like consistency, customization options, and user-friendly behavior.&#x20;
-
-&#x20;
+An ideal component library should fulfill several criteria. Firstly, it should provide a consistent and universal style across the entire website, achieved through the implementation of a theme. Secondly, it should offer customizable styles by using CSS or an extension framework such as Tailwind. Or a style system such as Bootstrap Despite the fact that style systems offer a lot of limitations that also limit your creativity, we can't overlook the fact that they are great tools for people with less CSS knowledge who can't be bothered to write CSS or tailwind like back end developers. They are also perfect for small projects that need to be done quickly. That's why I included them in this research. Lastly, it should also have solid, well-thought-out behavior that keeps track of stuff like keyboard navigation; basically, it needs to be user friendly.
 
 \
-**Tailwind UI (Creator: Adam Wathan) - Components: 400+**&#x20;
+\
 
-Tailwind UI is a great component library, however, it has its drawbacks. Firstly some things require a one time payment. Additionally, since it primarily provides CSS components, users need to add their own behavioral components or use a behavior library such as Radix to get a good user expirience.
 
-**Radix UI (Creator: Abdul Hadihallak) - Components: 20+**&#x20;
+In summary, when choosing a component library, consider factors like consistency, customization options, and user-friendly behavior.\
+\
+\
+\
 
-Radix UI is a component library has a style free and styled version the styled version  is styled with tailwind. It doesn't have a lot of components, but its components have great behavioral functionality.&#x20;
 
-**Shadcn (Creator: Shadcn) - Components: 40+**&#x20;
+**Tailwind UI (Creator: Adam Wathan): Components: 400+**
 
-Shadcn is one of my favorites; it's based on Radix. It has a big library of components, but it's not a component library. It's an online library where you can copy components from and use them in your project as your own components. It harnesses the power of Tailwind CSS. even though shadcn is a copy paste library it does come with some dependencies like tailwind tailwind animation etc.
+Tailwind UI is a great component library; however, it has its drawbacks. Firstly, some things require a one time payment. Additionally, since it primarily provides CSS components, users need to add their own behavioral components or use a behavior library such as Radix to get a good user experience.
 
-**Aceternity UI(Creator: Aceternity) - Components: 40+**&#x20;
+**Radix UI (Creator: Abdul Hadihallak): Components: 20+**
 
-Aceternity UI is akin to Shadcn, a copy-paste library, but what sets it apart is that Aceternity UI doesn't concentrate on creating components solely for building websites. Instead, it emphasizes crafting focal point components that attract attention. Unfortunately, some of the components in Aceternity UI have dependencies. Aceternity UI also offers an option to request custom components for a certain monthly price.
+Radix UI is a component library that has a style free and styled version. The styled version is styled with Tailwind. It doesn't have a lot of components, but its components have great behavioral functionality.
 
-**React Aria (Creator: Adobe) - Components: 40+**&#x20;
+**Shadcn (Creator: Shadcn): Components: 40+**
+
+Shadcn is one of my favorites; it's based on Radix. It has a big library of components, but it's not a component library. It's an online library where you can copy components from and use them in your project as your own components. It harnesses the power of Tailwind CSS. Even though shadcn is a copy paste library, it does come with some dependencies, like tailwind animation, etc.
+
+**Aceternity UI (Creator: Aceternity): Components: 40+**
+
+Aceternity UI is akin to Shadcn, a copy-paste library, but what sets it apart is that Aceternity UI doesn't concentrate on creating components solely for building websites. Instead, it emphasizes crafting focal point components that attract attention. Unfortunately, some of the components in the Aceternity UI have dependencies. Aceternity UI also offers the option to request custom components for a certain monthly price.
+
+**React Aria (Creator: Adobe): Components: 40+**
 
 React Aria provides a lot of tools, including hooks, testing, and routing. However, I will focus on its components. It offers a diverse selection of well-crafted components with practical applications. Additionally, it is style-agnostic, allowing you to easily integrate Tailwind CSS or something else.
 
-**Next UI (Creator: Next.js) - Components: 30+**&#x20;
+**Next UI (Creator: Next.js): Components: 30+**
 
-Next UI has a smooth design, and it's built on top of Tailwind CSS and React Aria, providing a strong foundation. However, the drawback I've noticed is its limited range of components, which tend to be quite basic. What I mean by that is it has everything you need for a basic website, but that's it. It doesn't have any crazy components.
+Next UI has a smooth design, and it's built on top of Tailwind CSS and React Aria, providing a strong foundation. However, the drawback I've noticed is its limited range of components, which tend to be quite basic. What I mean by that is that it has everything you need for a basic website, but that's it. It doesn't have any crazy components.
 
-**Material-UI (Creator: Google) - Components: 60+**&#x20;
+**Material-UI (Creator: Google): Components: 60+**
 
 Material UI can be seen as a neutral library, performing okay in all aspects without standing out. However, it distinguishes itself with its extensive collection of components and its lack of predefined styles, offering users ample flexibility in CSS customization.
 
-**Ant Design (Creator: Ant Group) - Components: 50+**&#x20;
+**Ant Design (Creator: Ant Group): Components: 50+**
 
-Ant Design has some unique components ideal for data entry. I would definitely use this if I'm ever working on a dashboard site that's heavily reliant on data entry / input .
+Ant Design has some unique components ideal for data entry. I would definitely use this if I'm ever working on a dashboard site that's heavily reliant on data entry and input .
 
-**Chakra UI (Creator: Segun Adebayo) - Components: 50+**&#x20;
+**Chakra UI (Creator: Segun Adebayo): Components: 50+**
 
-Chakra has a comprehensive library, but the downside is its ecosystem can make you somewhat dependent on it. While it's a powerful tool, it may require some time to fully grasp Chakra UI due to its complexity.
+Chakra has a comprehensive library, but the downside is that its ecosystem can make you somewhat dependent on it. While it's a powerful tool, it may require some time to fully grasp the Chakra UI due to its complexity.
 
-**React Bootstrap (Creator: React-Bootstrap) - Components: 30+**&#x20;
+**React Bootstrap (Creator: React-Bootstrap): Components: 30+**
 
-React Bootstrap is a great tool for devs who would like to optimize their development time its fast and easy to write. but it comes with a some limitations if you want to customize your websites style.
+React Bootstrap is a great tool for developers who would like to optimize their development time. It's fast and easy to write. but it comes with some limitations if you want to customize your website's style.
 
-**Headless UI (Creator: Tailwind Labs) - Components: 10+**&#x20;
+**Headless UI (Creator: Tailwind Labs) Components: 10+**
 
-Headless UI shares similarities with React Bootstrap and aims to provide developers with styling freedom, likely because its made by Tailwind. However it's just too young to be a competitor to the others. But I'm sure it will be a great tool in the future.
+Headless UI shares similarities with React Bootstrap and aims to provide developers with styling freedom, likely because it was made by Tailwind. However, it's just too young to be a competitor to the others. But I'm sure it will be a great tool in the future.
 
-**Fluent UI (Creator: Microsoft) - Components: 100+**&#x20;
+**Fluent UI (Creator: Microsoft): Components: 100+**
 
-Fluent UI is great if you want a Microsoft-like vibe to your applications, it stands out as the sole option in this lineup that ensures cross-platform compatibility. Whether you're making iOS apps or web development, Fluent UI maintains consistency in appearance across platforms.
+Fluent UI is great if you want a Microsoft-like vibe to your applications; it stands out as the sole option in this lineup that ensures cross-platform compatibility. Whether you're making iOS apps or web development, Fluent UI maintains consistency in appearance across platforms.
 
-**Carbon Design System (Creator: IBM) - Components: 100+**&#x20;
+**Carbon Design System (Creator: IBM): Components: 100+**
 
-The Carbon Design System also has a part that really stands out; it has a great collection of data visualization components. From charts to maps to tables, it has everything necessary for data visualization.
+The Carbon Design System also has a part that really stands out; it has a great collection of data visualization components. From charts to maps to tables, it has everything necessary for data visualization.\
+\
+
 
 
 
@@ -77,4 +84,56 @@ The Carbon Design System also has a part that really stands out; it has a great 
 
 
 
+As you have probably noticed, each of these component libraries is unique; they each have their own strengths and weaknesses that make them suitable for different types of projects. That's why I divided them into different categories below .\
+\
+\
+
+
+* **Dashboard websites or websites that heavily rely on data, such as spreadsheets, etc.**
+
+1. Carbon Design System offers diverse data visualization options.
+2. Ant Design offers a variety of data input methods.
+3. Fluent UI is recognized for its stylish and contemporary design inspired by Microsoft applications.
+
+* **Animation and Interactive Components:**
+
+1. Tailwind UI has a large library of animations.
+2. Aceternity UI has the best unique focal point components.
+3. Shadcn builds on top of radix but exceeds radix in the amount of components with animations.
+
+* **Performance Optimization:**
+
+1. React Aria
+2. React Bootstrap
+3. Radix UI
+4. Chakra UI
+
+* **Community aplications like chats, social media and blogs**
+
+1. Tailwind UI
+2. Next UI
+3. React Bootstrap
+4. Fluent UI
+
+* **Cross device applications**\
+  Unfortunately, I only found one application that really fits this description.
+
+1. Fluent UI is compatible with Web, Windows, MacOS, iOS, and Android.
+
+* **Copy-paste libraries where you don't need to install a component library into your project.**
+
+1. Aceternity UI.
+2. Shadcn.\
+
+
+* **No CSS libraries that use their own system to style your website**
+
+1. React Bootstrap
+2. Tailwind UI
+3. Chakra UI\
+   \
+
+
+\
+\
 \
