@@ -87,11 +87,12 @@ The Carbon Design System also has a part that really stands out; it has a great 
 As you have probably noticed, each of these component libraries is unique; they each have their own strengths and weaknesses that make them suitable for different types of projects. That's why I divided them into different categories below .\
 \
 \
+\
 
 
 * **Dashboard websites or websites that heavily rely on data, such as spreadsheets, etc.**
 
-1. Carbon Design System offers diverse data visualization options.
+1. The Carbon Design System offers diverse data visualization options.
 2. Ant Design offers a variety of data input methods.
 3. Fluent UI is recognized for its stylish and contemporary design inspired by Microsoft applications.
 
@@ -108,7 +109,7 @@ As you have probably noticed, each of these component libraries is unique; they 
 3. Radix UI
 4. Chakra UI
 
-* **Community aplications like chats, social media and blogs**
+* **Community applications like chats, social media, and blogs**
 
 1. Tailwind UI
 2. Next UI
@@ -124,16 +125,11 @@ As you have probably noticed, each of these component libraries is unique; they 
 
 1. Aceternity UI.
 2. Shadcn.\
+   \
 
 
-* **No CSS libraries that use their own system to style your website**
+* **No CSS libraries that use their own system to style your website.**
 
 1. React Bootstrap
 2. Tailwind UI
 3. Chakra UI\
-   \
-
-
-\
-\
-\
