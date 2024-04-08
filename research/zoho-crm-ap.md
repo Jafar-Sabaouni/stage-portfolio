@@ -2,11 +2,11 @@
 
 ### Refresh Access Token:&#x20;
 
-How does authentication work on our project: When pressing login we redirect to the login url from zoho. After the user accepts he gets redirected back to the LoginRedirect and gets the access token in the url and it gets send to the authContext. SetToken witch saves the token to local storage.
+How does authentication work on our project? When pressing login, we are redirected to the login url from Zoho. After the user accepts he gets redirected back to the LoginRedirect and gets the access token in the url which gets sent to the authContext. SetToken, which saves the token to local storage.
 
 {% embed url="https://www.zoho.com/accounts/protocol/oauth/js-apps/access-token.html" %}
 
-The explanation says that for a client-based application, you need to request the authentication token through a link just like we where doing. Upon logging in to the Zoho authentication, they will be redirected back to the application. Example :\
+The explanation says that for a client-based application, you need to request the authentication token through a link just like we were doing. Upon logging in to Zoho authentication, they will be redirected back to the application. Example :\
 <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
 <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -15,7 +15,7 @@ To refresh a token is pretty easy all we need to do is redirect the user to a zo
 
 #### Things to keep in mind :
 
-1. The authentication token gets updated each time the user does a refresh If u try to refresh a token while the your logged out of your zoho account u won't get a authentication token back.
+1. The authentication token gets updated each time the user does a refresh If u try to refresh a token while the your logged out of your zoho account, u won't get a authentication token back.
 2. If u try to refresh a token in a different session u wont get a authentication token back.
 3. a refresh can happen even after a hour if its in the same sassion
 4. And only 10 authentications in a span of 10min( on the same device and account ).
@@ -63,8 +63,22 @@ list of all the type of users we can get :
 * **DeletedUsers** - To get the list of deleted users.
 * **ActiveConfirmedUsers** - To get the list of active users who are also confirmed.
 * **AdminUsers** - To get the list of admin users.
-* **ActiveConfirmedAdmins** - To get the list of active users with the administrative privileges and are also confirmed.
-* **CurrentUser** - To get the current CRM user.
+* **ActiveConfirmedAdmins** - To get the list of active users with the administrative privileges who are also confirmed.
+* **CurrentUser**: To get the current CRM user.
+
+### getting images from zoho
+
+To get a user image, add it on top of this link. Keep in mind that a user must be logged in to retrieve his image.
+
+[https://accounts.zoho.eu/file?fs=thumb\&ID=](https://accounts.zoho.eu/file?fs=thumb\&ID=)
+
+to get a product image, u will need to have the product id and the image id the product id needs to be added after the **entityId=** and the image id needs to be added after the **fileId=**
+
+[https://crm.zoho.eu/crm/EntityImageAttach.do?action\_module=CustomModule2\&entityId=\&actionName=readImage\&fileId=](https://crm.zoho.eu/crm/EntityImageAttach.do?action\_module=CustomModule2\&entityId=\&actionName=readImage\&fileId=)
+
+
+
+
 
 ### loading data (will be added in the future)
 
@@ -80,7 +94,7 @@ This wont be that had we just have to keep doing request till the more-records v
 
 Originally, I had an idea to add a timestamp value within the Zoho CRM. This timestamp would be updated whenever a user adds a PUT, enabling all devices accessing our website to compare the timestamps. Depending on the value, they could proceed with a refresh.
 
-But after some research i found out they already have a similar feature. where they store the last updated time.
+But after some research,it i found out they already have a similar feature. where they store the last updated time.
 
 [https://www.zoho.com/crm/developer/docs/api/v6/modules-api.htm](https://www.zoho.com/crm/developer/docs/api/v6/modules-api.html)
 
@@ -88,7 +102,7 @@ But after some research i found out they already have a similar feature. where t
 
 <figure><img src="../.gitbook/assets/Schermafbeelding 2024-03-08 105759.png" alt=""><figcaption></figcaption></figure>
 
-i also am doing research into stale data&#x20;
+I am researching and also am doing research into stale data&#x20;
 
 ### search function in our project<mark style="color:red;">(will be added in the future)</mark> 
 
@@ -108,7 +122,7 @@ Ive searched around and found that Zoho Chat Cliq has a similar feature, but it'
 
 There is no mention in Zoho's documentation about similar functionality for switching between multiple users. Someone has already attempted something similar, but they haven't received a response from Zoho yet. https://help.zoho.com/portal/en/kb/accounts/faqs-troubleshooting/faqs/oneauth/articles/how-to-switch-between-multiple-zoho-accounts
 
-Approach 1: the best way is if we kept all users loged in and refresh their tokens to keep them logged in unfortunately this wont work for us because each time a user logges in the previose user gets logged out which makes that users authentication key invalid.
+Approach 1: the best way is if we kept all users logged in and refresh their tokens to keep them logged in unfortunately this wont work for us because each time a user login the previous user gets logged out which makes that users authentication key invalid.
 
 Approach 2: I have a different idea for solving this problem. What if we create a fake user? This user would have access to all the information from the accounts. Then, we can call up the accounts and let the user choose from them. Once the choice is made, we can store the account's ID in the local storage.
 
