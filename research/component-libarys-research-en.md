@@ -96,11 +96,12 @@ As you have probably noticed, each of these component libraries is unique; they 
 2. Ant Design offers a variety of data input methods.
 3. Fluent UI is recognized for its stylish and contemporary design inspired by Microsoft applications.
 
-* **Animation and Interactive Components:**
+* **Animation :**
 
 1. Tailwind UI has a large library of animations.
 2. Aceternity UI has the best unique focal point components.
-3. Shadcn builds on top of radix but exceeds radix in the amount of components with animations.
+3. Shadcn.
+4. React Bootstrap
 
 * **Performance Optimization:**
 
