@@ -135,7 +135,7 @@ As you have probably noticed, each of these component libraries is unique; they 
 1. Aceternity UI can be used using the cli or by directly copying the component .
 2. Shadcn can be used using the cli or by directly copying the component.
 
-* **There are no CSS libraries that use their own system to style your website.**
+* **NO CSS  Component libraries that use their own system to style your website.**
 
 1. Tailwind UI is a great tool to reduce the amount of time you spend on style while still being able to alter every part of the style.
 2. React Bootstrap is great for creating styles at record speeds, but unfortunately, it doesn't have much in the field of customization. Still, I would recommend it to anyone who wants a good looking style for a small project where there isn't much customization needed.
