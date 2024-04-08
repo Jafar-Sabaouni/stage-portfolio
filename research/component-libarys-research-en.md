@@ -88,34 +88,42 @@ As you have probably noticed, each of these component libraries is unique; they 
 \
 \
 \
+\
+\
+\
+\
+\
+\
+\
 
 
 * **Dashboard websites or websites that heavily rely on data, such as spreadsheets, etc.**
 
 1. The Carbon Design System offers diverse data visualization options.
 2. Ant Design offers a variety of data input methods.
-3. Fluent UI is recognized for its stylish and contemporary design inspired by Microsoft applications.
+3. Fluent UI is recognized for its stylish and universal design inspired by Microsoft applications.
+4. React Aria offers multiple kinds of inputs for the same use case.
 
-* **Animation :**
+* **Animation and Interactive Components:**
 
 1. Tailwind UI has a large library of animations.
 2. Aceternity UI has the best unique focal point components.
-3. Shadcn.
-4. React Bootstrap
+3. Shadcn components are styled with Tailwind CSS and Tailwind Antmations.
 
 * **Performance Optimization:**
 
-1. React Aria
-2. React Bootstrap
-3. Radix UI
-4. Chakra UI
+1. React Aria has many types of components focused on providing many different advantages to reach the same goal.
+2. React Bootstrap has been perfecting its components since 2015.
+3. Radix UI was developed with functionality in mind.
+4. Shadcn is based on radix, so it has similar performance.
+5. Chakra UI has its own eco system, so everything fits together like a puzzle.
 
 * **Community applications like chats, social media, and blogs**
 
-1. Tailwind UI
-2. Next UI
+1. Tailwind UI has many different templates and components for community applications.
+2. Next UI has some eye caching components that would fit greatly in a community application.
 3. React Bootstrap
-4. Fluent UI
+4. Fluent UI has proven that it can be used for great community applications. just look at teams and outlook
 
 * **Cross device applications**\
   Unfortunately, I only found one application that really fits this description.
@@ -124,13 +132,24 @@ As you have probably noticed, each of these component libraries is unique; they 
 
 * **Copy-paste libraries where you don't need to install a component library into your project.**
 
-1. Aceternity UI.
-2. Shadcn.\
+1. Aceternity UI can be used using the cli or by directly copying the component .
+2. Shadcn can be used using the cli or by directly copying the component.
+
+* **There are no CSS libraries that use their own system to style your website.**
+
+1. Tailwind UI is a great tool to reduce the amount of time you spend on style while still being able to alter every part of the style.
+2. React Bootstrap is great for creating styles at record speeds, but unfortunately, it doesn't have much in the field of customization. Still, I would recommend it to anyone who wants a good looking style for a small project where there isn't much customization needed.
+3. Chakra UI uses something quite different; it uses parameters to style its components. It does its job well, but it can be hard to start with.\
+   \
+   \
+   \
+   \
+   \
+   \
+   \
    \
 
 
-* **No CSS libraries that use their own system to style your website.**
-
-1. React Bootstrap
-2. Tailwind UI
-3. Chakra UI\
+Each of these libraries has its own unique features and benefits, so it's important to carefully evaluate them before making a decision. Consider factors such as ease of use, customization options, and compatibility with your existing codebase. Ultimately, the right choice will depend on your specific project requirements and development goals.\
+\
+\
