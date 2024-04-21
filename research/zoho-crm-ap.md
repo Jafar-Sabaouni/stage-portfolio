@@ -24,7 +24,7 @@ To refresh a token is pretty easy all we need to do is redirect the user to a zo
 
 
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### technical explanation of how il try to implement the auth refresh
 
