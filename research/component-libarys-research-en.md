@@ -76,13 +76,15 @@ The Carbon Design System also has a part that really stands out; it has a great 
 
 
 
-### tabel:
+### Tabel:
 
 
 
 <table><thead><tr><th width="161">name</th><th width="128">Github stars</th><th>release year</th><th>daily npm Downloads</th><th>Components</th></tr></thead><tbody><tr><td>Tailwind UI</td><td>77.1k</td><td>2017</td><td>8.647.826</td><td><h4>400+</h4></td></tr><tr><td>Material-UI</td><td>91.1k</td><td>2014</td><td>3.754.279</td><td><h4>60+</h4></td></tr><tr><td>Ant Design</td><td>89.7k</td><td>2015</td><td>1.377.697</td><td><h4>50+</h4></td></tr><tr><td>Chakra UI</td><td>36.2k</td><td>2019</td><td>566.752</td><td><h4>50+ </h4></td></tr><tr><td>React-Aria</td><td>11.4k</td><td>2022</td><td>440.242</td><td><h4>40+</h4></td></tr><tr><td>Radix UI</td><td>13.7k</td><td>Onbekend</td><td>6.489</td><td>20+ </td></tr><tr><td>Shadcn</td><td>52.5k</td><td>2023</td><td>unknown</td><td>40+</td></tr><tr><td>Aceternity UI</td><td>unknown</td><td>unknown</td><td>unknown</td><td>40+</td></tr><tr><td>Next UI</td><td>18.7k</td><td>2021</td><td>90.739</td><td><h4>30+ </h4></td></tr><tr><td>Headless UI</td><td>23.8k</td><td>2020</td><td>1.701.895</td><td><h4>10+</h4></td></tr><tr><td>Carbon Design System</td><td>7.4k</td><td>2017</td><td>113.383</td><td><h4>100+ </h4></td></tr><tr><td>React Bootstrap</td><td>22.2k</td><td>2014</td><td>2.016.427</td><td> 30+ </td></tr><tr><td>Fluent UI</td><td>17.5k</td><td>Onbekend</td><td>177.59</td><td><h4>100+ </h4></td></tr></tbody></table>
 
 
+
+### Conclusion:
 
 As you have probably noticed, each of these component libraries is unique; they each have their own strengths and weaknesses that make them suitable for different types of projects. That's why I divided them into different categories below .\
 \
