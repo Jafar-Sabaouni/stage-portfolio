@@ -1,0 +1,24 @@
+# Page
+
+### functionality for the search&#x20;
+
+Ik heb een search context gemaakt die alle zoek gerelateerde zaken zal behandelen. Ik heb de zoekfunctie zo gemaakt dat deze niet hoofdlettergevoelig is en geen volledig woord vereist is om te kunnen zoeken. Bovendien wordt er alleen gezocht op titel, subtitel en productietechnieken.
+
+Ik heb de code al getest en zie nog enige ruimte voor verbetering. Ik denk dat we misschien een suggestie lijst kunnen toevoegen.
+
+ik zal hier verder aan werken wanneer we een confirmatie krijgen op de search design.
+
+### alter the auth refresh to try to still try refresh even after the toke is expired
+
+dit een kleine aanpassing om de gebruikerservaring te verbeteren
+
+### fix details and dashboard not having the same size
+
+Dit kwam doordat ik in details page een maximale width had, terwel er al een pading was.
+
+
+
+### add a transparent fake button on the card chevron right
+
+Dit is omdat we al snel ontdekten dat de iPad-knop te makkelijk is om te missen, is dit bedoeld om een grotere gebied voor button te creeren.
+
