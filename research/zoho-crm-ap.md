@@ -9,7 +9,7 @@ How does authentication work on our project? When pressing login, we are redirec
 The explanation says that for a client-based application, you need to request the authentication token through a link just like we were doing. Upon logging in to Zoho authentication, they will be redirected back to the application. Example :\
 <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth? client\_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx& response\_type=token& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To refresh a token is pretty easy all we need to do is redirect the user to a zoho refresh URL that immediately sends a redirects back to your project together with a new URL Example : <mark style="background-color:orange;">https://accounts.zoho.com/oauth/v2/auth/refresh? client\_id=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx& response\_type=token& scope=AaaServer.profile.Read& scope=AaaServer.profile.Read& redirect\_uri=https://www.zylker.com/oauthredirect</mark>
 
