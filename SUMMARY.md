@@ -78,4 +78,5 @@
   * [React TS data fetching libraries](research/react-ts-data-fetching-libraries.md)
   * [component libarys research EN](research/component-libarys-research-en.md)
   * [Zoho CRM AP](research/zoho-crm-ap.md)
+  * [Authentication providers](research/authentication-providers.md)
 * [Figma](figma.md)
